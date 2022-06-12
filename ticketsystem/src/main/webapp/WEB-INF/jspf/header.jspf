@@ -1,0 +1,88 @@
+<%-- 
+    Document   : index
+    Created on : 15-May-2021, 2:49:39 pm
+    Author     : mohit
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Ticketing Manager Controller</title>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    </head>
+    <body>
+        <table border="1" width="100%">
+            <tr>
+                <th colspan="2">Ticketing Manager Controller: Header</th>
+            </tr>
+            <tr>
+                <td width="15%" align="left" valign="top">
+                    <table>
+                        <tr>
+                            <th>
+                                <a href="${pageContext.request.contextPath}/index">HOME</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a href="${pageContext.request.contextPath}/listStation">Station</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="${pageContext.request.contextPath}/addStation">Add Station</a>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a href="${pageContext.request.contextPath}/listGate">Station Gate</a>
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="${pageContext.request.contextPath}/addGate">Add Station Gate</a>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a href="${pageContext.request.contextPath}/listTicketMachine">Ticket Machine</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="${pageContext.request.contextPath}/addTicketMachine">Add Ticket Machine</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a href="${pageContext.request.contextPath}/listHoliday">Holidays</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="${pageContext.request.contextPath}/addHoliday">Add Holidays</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a href="${pageContext.request.contextPath}/listTicketCharge">Ticket Charge</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a href="${pageContext.request.contextPath}/bookTicket">Book Ticket</a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a href="${pageContext.request.contextPath}/gateService">Gate Service</a>
+                            </th>
+                        </tr>
+                    </table>
+                </td>
+                <td width="85%" align="left" valign="top">

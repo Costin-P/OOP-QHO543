@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ticketManagementApp">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/ticketapp" password="ticket" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/ticket" username="admin"/>
+</Context>
